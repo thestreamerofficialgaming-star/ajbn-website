@@ -1,0 +1,25 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1440 320"
+  preserveAspectRatio="none"
+>
+  <defs>
+    <linearGradient id="softRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c1121f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c1121f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    fill="url(#softRed)"
+    d="
+      M0,160
+      C180,130 320,220 520,210
+      C720,200 900,140 1080,150
+      C1260,160 1380,190 1440,180
+      L1440,0
+      L0,0
+      Z
+    "
+  />
+</svg>
