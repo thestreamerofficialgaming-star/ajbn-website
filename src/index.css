@@ -746,3 +746,92 @@ html, body {
 body {
   top: 0 !important;
 }
+@media (max-width: 768px) {
+  .btn,
+  button,
+  .cta,
+  .hero-actions a {
+    width: 100%;
+    max-width: 320px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+
+    border-radius: 12px;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .whatsapp,
+  .btn-whatsapp {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .hero-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    max-width: 360px;
+    margin: 16px auto 0;
+  }
+
+  .hero-actions > * {
+    flex: 1;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero-actions .phone-box {
+    border: 2px solid #c62828;
+    border-radius: 12px;
+    background: transparent;
+    color: #c62828;
+  }
+
+  .hero-actions .whatsapp-btn {
+    background: #c62828;
+    color: #fff;
+    border-radius: 12px;
+    text-decoration: none;
+  }
+}
+/* Kill mobile link styling */
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:visited,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+.whatsapp-btn,
+.phone-box {
+  text-decoration: none !important;
+  color: inherit !important;
+}
