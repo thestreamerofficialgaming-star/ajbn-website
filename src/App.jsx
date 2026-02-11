@@ -309,7 +309,7 @@ useEffect(() => {
 
 </section>
   <a
-  href="https://jsdl.in/RSL-WFE1768306645"
+ href="https://jsdl.in/DT-99PKRNWNAWT"
   target="_blank"
   rel="noopener noreferrer"
 >
@@ -345,9 +345,11 @@ useEffect(() => {
           <div>
             <h4>Contact</h4>
             <a href="tel:18004101080">📞 1800 410 1080</a><p></p>
-            <a href="mailto:info@ajbnservicespvttld.com">
-  info@ajbnservicespvttld.com
+            <a href="https://wa.me/919848821119">🟢 WhatsApp: 9848821119</a>
+           <a href="mailto:office@ajbnservicespvtltd.com">
+ office@ajbnservicespvtltd.com
 </a>
+
 
           </div>
         </div>
